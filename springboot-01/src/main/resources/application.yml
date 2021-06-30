@@ -1,0 +1,27 @@
+properties:
+  enabled: false
+  remote-address: 127.0.0.1
+  security:
+    username: xinzhe
+    password: 123456
+    roles: [user, admin]
+
+acme:
+  enabled: false
+  remote-address: 127.0.0.1
+  security:
+    username: xinzhe
+    password: 123456
+    roles: [user, admin, customer]
+
+server:
+  port: 8092
+
+testprop:
+  enabled: true
+  remote-address: 127.1.1.1
+  security:
+    username: test
+    password: pass
+
+
