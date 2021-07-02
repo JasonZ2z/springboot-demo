@@ -21,6 +21,7 @@
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
+        <start-class>com.xx.webapps.api.main.WebappsApiBidMain</start-class>
     </properties>
 
 </project>
