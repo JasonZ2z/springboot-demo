@@ -10,6 +10,7 @@
     <modules>
         <module>springboot-01</module>
         <module>springboot-spi</module>
+        <module>springboot-02</module>
     </modules>
     <packaging>pom</packaging>
 

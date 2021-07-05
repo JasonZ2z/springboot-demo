@@ -5,7 +5,6 @@ import com.xinzhe.bean.TestProp;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.context.properties.ConfigurationPropertiesScan;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ConfigurableApplicationContext;
@@ -15,10 +14,10 @@ import java.util.Arrays;
 
 @SpringBootApplication
 @EnableConfigurationProperties({ Acme.class, TestProp.class})
-public class Application {
+public class FirstApplication {
 
     public static void main(String[] args) {
-        ConfigurableApplicationContext ctx = SpringApplication.run(Application.class, args);
+        ConfigurableApplicationContext ctx = SpringApplication.run(FirstApplication.class, args);
 
     }
 

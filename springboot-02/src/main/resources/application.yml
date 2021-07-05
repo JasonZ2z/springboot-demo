@@ -23,6 +23,8 @@ testprop:
   security:
     username: test
     password: pass
+
+#database configuration
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -31,3 +33,9 @@ spring:
     username: root
     password: 123456
 
+#mybatis configuration
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.xinzhe.bean
